@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>repo</title>
+    <style>
+        :root{ --bg:#f6f7fb; --card:#ffffff; --muted:#6b7280; --accent:#6b2d2d }
+        html,body{height:100%;}
+        body{
+            margin:0;
+            font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+            background:var(--bg);
+            color:#111827;
+            -webkit-font-smoothing:antialiased;
+            -moz-osx-font-smoothing:grayscale;
+            padding:32px;
+        }
+        .container{max-width:1200px;margin:0 auto;background:transparent}
+        h1{font-size:1.6rem;margin:0 0 18px}
+        h2{margin-top:36px;color:var(--muted)}
+        h3{margin:20px 0 10px;color:var(--accent);font-size:1rem}
+        .gallery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px}
+        .gallery-grid img{width:100%;height:140px;object-fit:cover;border-radius:8px;box-shadow:0 6px 18px rgba(17,24,39,0.06);border:1px solid rgba(15,23,42,0.03);transition:transform .18s ease, box-shadow .18s ease}
+        .gallery-grid img:hover{transform:translateY(-6px) scale(1.02);box-shadow:0 12px 30px rgba(17,24,39,0.12)}
+        .folder{margin-bottom:22px}
+        .meta{font-size:0.9rem;color:var(--muted);margin-bottom:8px}
+        @media (max-width:520px){.gallery-grid img{height:110px}}
+    </style>
+</head>
+<body>
+    <main class="container">
+    <h1>Imágenes en este directorio</h1>
+    <section class="gallery">
+        <div class="gallery-grid">
+            <img src="acrobata.png" alt="acrobata" loading="lazy">
+            <img src="armidita.png" alt="armidita" loading="lazy">
+            <img src="Banners Web-01.jpg" alt="Banners Web-01" loading="lazy">
+            <img src="Banners Web-02.jpg" alt="Banners Web-02" loading="lazy">
+            <img src="Banners Web-03.jpg" alt="Banners Web-03" loading="lazy">
+            <img src="blog-hero.jpeg" alt="blog-hero" loading="lazy">
+            <img src="bowines.jpg" alt="bowines.jpg" loading="lazy">
+            <img src="bowines.png" alt="bowines.png" loading="lazy">
+            <img src="BuenVida.jpg" alt="BuenVida.jpg" loading="lazy">
+            <img src="BuenVida.webp" alt="BuenVida.webp" loading="lazy">
+            <img src="Butrón Bunidich.jpg" alt="Butrón Bunidich.jpg" loading="lazy">
+            <img src="Butrón Bunidich.png" alt="Butrón Bunidich.png" loading="lazy">
+            <img src="corral victoria.png" alt="corral victoria" loading="lazy">
+            <img src="erasmo.png" alt="erasmo" loading="lazy">
+            <img src="flaherty.png" alt="flaherty" loading="lazy">
+            <img src="la recova.png" alt="la recova" loading="lazy">
+            <img src="Las Runas.jpg" alt="Las Runas.jpg" loading="lazy">
+            <img src="Laura Hartwig.png" alt="Laura Hartwig.png" loading="lazy">
+            <img src="LOGO BLANCO_Mesa de trabajo 1.png" alt="LOGO BLANCO" loading="lazy">
+            <img src="Logo Horizontal Beige.png" alt="Logo Horizontal Beige" loading="lazy">
+            <img src="Logo Horizontal Negro.png" alt="Logo Horizontal Negro" loading="lazy">
+            <img src="Logo Horizontal Verde.png" alt="Logo Horizontal Verde" loading="lazy">
+            <img src="Logo Horizontal Vino.png" alt="Logo Horizontal Vino" loading="lazy">
+            <img src="Logo Vertical Beige.png" alt="Logo Vertical Beige" loading="lazy">
+            <img src="Logo Vertical Negro.png" alt="Logo Vertical Negro" loading="lazy">
+            <img src="Logo Vertical Verde.png" alt="Logo Vertical Verde" loading="lazy">
+            <img src="Logo Vertical Vino.png" alt="Logo Vertical Vino" loading="lazy">
+            <img src="Logo-Vertical-Negro-300x300.png" alt="Logo-Vertical-Negro-300x300" loading="lazy">
+            <img src="octubre.jpg" alt="octubre" loading="lazy">
+            <img src="own wines.png" alt="own wines" loading="lazy">
+            <img src="ravanal.png" alt="ravanal" loading="lazy">
+            <img src="SLIDE PROMO NOVIEMBRE.jpg" alt="SLIDE PROMO NOVIEMBRE" loading="lazy">
+            <img src="SLIDE PROMO OCTUBRE .jpg" alt="SLIDE PROMO OCTUBRE" loading="lazy">
+            <img src="wine-club.png" alt="wine-club" loading="lazy">
+        </div>
+    </section>
+
+    <h2>Imágenes en carpetas</h2>
+
+    <section class="folder">
+        <h3>acrobata</h3>
+        <div class="gallery-grid">
+            <img src="acrobata/1.jpg" alt="acrobata 1" loading="lazy">
+            <img src="acrobata/2.jpg" alt="acrobata 2" loading="lazy">
+            <img src="acrobata/3.jpeg" alt="acrobata 3" loading="lazy">
+        </div>
+    </section>
+
+    <section class="folder">
+        <h3>armidita</h3>
+        <div class="gallery-grid">
+            <img src="armidita/1.jpg" alt="armidita 1" loading="lazy">
+            <img src="armidita/2.png" alt="armidita 2" loading="lazy">
+            <img src="armidita/3.png" alt="armidita 3" loading="lazy">
+        </div>
+    </section>
+
+    <section class="folder">
+        <h3>bowines</h3>
+        <div class="gallery-grid">
+            <img src="bowines/1.png" alt="bowines 1" loading="lazy">
+            <img src="bowines/2.png" alt="bowines 2" loading="lazy">
+            <img src="bowines/3.png" alt="bowines 3" loading="lazy">
+        </div>
+    </section>
+
+    <section class="folder">
+        <h3>buena-vida</h3>
+        <div class="gallery-grid">
+            <img src="buena-vida/1.jpg" alt="buena-vida 1" loading="lazy">
+            <img src="buena-vida/2.jpg" alt="buena-vida 2" loading="lazy">
+            <img src="buena-vida/3.jpg" alt="buena-vida 3" loading="lazy">
+        </div>
+    </section>
+
+    <section class="folder">
+        <h3>butron</h3>
+        <div class="gallery-grid">
+            <img src="butron/1.png" alt="butron 1" loading="lazy">
+            <img src="butron/2.png" alt="butron 2" loading="lazy">
+            <img src="butron/3.jpg" alt="butron 3" loading="lazy">
+        </div>
+    </section>
+
+    <section class="folder">
+        <h3>corral</h3>
+        <div class="gallery-grid">
+            <img src="corral/1.jpg" alt="corral 1" loading="lazy">
+            <img src="corral/2.png" alt="corral 2" loading="lazy">
+            <img src="corral/3.png" alt="corral 3" loading="lazy">
+        </div>
+    </section>
+
+    <section class="folder">
+        <h3>erasmo</h3>
+        <div class="gallery-grid">
+            <img src="erasmo/1.png" alt="erasmo 1" loading="lazy">
+            <img src="erasmo/2.png" alt="erasmo 2" loading="lazy">
+            <img src="erasmo/3.png" alt="erasmo 3" loading="lazy">
+        </div>
+    </section>
+
+    <section class="folder">
+        <h3>flaherty</h3>
+        <div class="gallery-grid">
+            <img src="flaherty/1.png" alt="flaherty 1" loading="lazy">
+            <img src="flaherty/2.png" alt="flaherty 2" loading="lazy">
+            <img src="flaherty/3.png" alt="flaherty 3" loading="lazy">
+        </div>
+    </section>
+
+    <section class="folder">
+        <h3>La Recova</h3>
+        <div class="gallery-grid">
+            <img src="La Recova/1.png" alt="La Recova 1" loading="lazy">
+            <img src="La Recova/2.png" alt="La Recova 2" loading="lazy">
+            <img src="La Recova/3.png" alt="La Recova 3" loading="lazy">
+        </div>
+    </section>
+
+    <section class="folder">
+        <h3>Las Runas</h3>
+        <div class="gallery-grid">
+            <img src="Las Runas/2.png" alt="Las Runas 2" loading="lazy">
+            <img src="Las Runas/3.png" alt="Las Runas 3" loading="lazy">
+        </div>
+    </section>
+
+    <section class="folder">
+        <h3>laura</h3>
+        <div class="gallery-grid">
+            <img src="laura/1.jpg" alt="laura 1" loading="lazy">
+            <img src="laura/2.png" alt="laura 2" loading="lazy">
+            <img src="laura/3.jpg" alt="laura 3" loading="lazy">
+        </div>
+    </section>
+
+    <section class="folder">
+        <h3>own-wines</h3>
+        <div class="gallery-grid">
+            <img src="own-wines/1.jpg" alt="own-wines 1" loading="lazy">
+            <img src="own-wines/2.jpg" alt="own-wines 2" loading="lazy">
+            <img src="own-wines/3.jpg" alt="own-wines 3" loading="lazy">
+        </div>
+    </section>
+
+    <section class="folder">
+        <h3>ravanal</h3>
+        <div class="gallery-grid">
+            <img src="ravanal/1.webp" alt="ravanal 1" loading="lazy">
+            <img src="ravanal/2.webp" alt="ravanal 2" loading="lazy">
+            <img src="ravanal/3.webp" alt="ravanal 3" loading="lazy">
+        </div>
+    </section>
+    </main>
+</body>
+</html>
